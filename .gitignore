@@ -1,0 +1,20 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+outputs/
+/tmp/
+
+# Vercel
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+.antigravitycli/
+.gemini/
