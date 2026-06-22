@@ -8,7 +8,7 @@ import base64
 
 from tts_engine import tts_engine
 
-app = FastAPI(title="TTS Local Server")
+app = FastAPI(title="TTS Local Server", root_path="/api")
 
 # Allow CORS for local frontend
 app.add_middleware(
